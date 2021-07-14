@@ -9,11 +9,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Curso Git',
+      title: 'Curso Git & GitHub',
       theme: ThemeData(
         primarySwatch: Colors.yellow,
       ),
-      home: MyHomePage(title: 'GitHub'),
+      home: MyHomePage(title: 'Rama Principal'),
     );
   }
 }
