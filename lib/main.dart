@@ -11,9 +11,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Curso Git & GitHub',
       theme: ThemeData(
-        primarySwatch: Colors.yellow,
+        primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Rama Principal'),
+      home: MyHomePage(title: 'Curso Git & GitHub'),
     );
   }
 }
@@ -42,7 +42,10 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
+        title: Text(
+          widget.title,
+          style: TextStyle(backgroundColor: Colors.blueGrey),
+        ),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
