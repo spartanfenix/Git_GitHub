@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Apenas empieza lo bueno'),
+      home: MyHomePage(title: 'Buen curso, palomita'),
     );
   }
 }
