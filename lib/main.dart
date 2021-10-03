@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Git y Github'),
+      home: MyHomePage(title: 'Cambio hecho por charalito94'),
     );
   }
 }
